@@ -1,0 +1,69 @@
+/*-----------*/
+/* CSS RESET */
+/*-----------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------*/
+/* GENERAL STYLING */
+/*-----------------*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 2rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/*-----------------*/
+/* STYLING THE CARD */
+/*-----------------*/
+
+section.card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    width: 100%;
+    max-width: 32rem;
+    text-align: center;
+    box-shadow: 0.4rem 0.4rem 4rem 0px #C1CEDD;
+    align-items: center;
+}
+
+img.card__img {
+    width: 100%;
+    border-radius: 1.6rem;
+}
+
+p.card__heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+    margin-top: 2.4rem;
+    color: #222F44;
+    line-height: 1.2;
+    max-width: 25.8rem;
+}
+
+
+p.card__copy {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+    max-width: 27.8rem;
+    line-height: 1.3;
+    color: #6f7279;
+}
